@@ -1,0 +1,29 @@
+{
+	"name" 	       : "this-song",
+	"version" 	   : "1.0.3",
+	"preferGlobal" : "true",
+	"bin" 		   : {"this-song" : "this-song.js"},
+	"description"  : "Download the song currently being played by youtube",
+	"main"		   : "this-song",
+	"author" 	   : "shesmu",
+	"keywords"	   : [
+		"youtube",
+		"this song",
+		"download",
+		"jam"
+	],
+	"repository"   : {
+		"type" : "git",
+		"url"  : "github.com/shesmu/this-song"
+	},
+	"liscense"     : "MIT",
+	"dependencies" : {
+		"request"    : "latest",
+		"http"	     : "latest",
+		"ws"	     : "latest",
+		"ytdl-core"  : "latest",
+		"fs" 		 : "latest",
+		"program"    : "latest",
+		"commander"  : "latest"
+	}
+}
